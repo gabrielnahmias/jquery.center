@@ -37,8 +37,8 @@ This simple plugin helps you centralize any DOM element against its parent eleme
 #### against
   - **Description:** the element against which the DOM element centralizes
   - **Data Type:** string
-  - **Default Value:** `window`
-  - **Possible Value:** `window`, `parent`, or `.someTarget`
+  - **Default Value:** `"window"`
+  - **Possible Value:** `"window"`, `"parent"`, or `".someTarget"`
 
 #### top
   - **Description:** you can specify the top of the target element in pixels...
@@ -53,10 +53,10 @@ This simple plugin helps you centralize any DOM element against its parent eleme
   - **Possible Value:** `0.1`, `0.4`, `0.8`...
 
 #### resize
-  - **Description:** center on window resize
+  - **Description:** center on window resize?
   - **Data Type:** boolean
-  - **Default Value:** true
-  - **Possible Value:** `true` | `false`
+  - **Default Value:** `true`
+  - **Possible Value:** `true` or `false`
 
 ## Usage
 > Example code:
